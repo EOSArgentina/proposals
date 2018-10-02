@@ -11,7 +11,7 @@ void chngaddress(const ethereum_address& old_address, const ethereum_address& ne
 ```
 
 ##### regaccount
-Allows a user who didn't registered a public key in the contribution period to claim their EOS tokens.
+Allows a user who didn't register a public key during the contribution period and have no recourse to fallback process ([unregistered user](https://eosauthority.com/genesis)) to claim their EOS tokens.
 This is being done by providing a signature using the ETH private key of the account used to make the contribution.
 
 ##### setmaxeos
